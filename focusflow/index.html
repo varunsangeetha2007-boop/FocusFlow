@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <button onclick="toggleDarkMode()" id="darkBtn">🌙 Dark Mode</button>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FocusFlow - Student Productivity Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🎯 FocusFlow</h1>
+    <p>Plan your day. Stay focused. Achieve your goals.</p>
+
+    <div class="task-box">
+        <input type="text" id="taskInput" placeholder="Enter a new task">
+        <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <ul id="taskList"></ul>
+<div class="timer-box">
+    <h2>⏳ Focus Timer</h2>
+    <h3 id="timer">25:00</h3>
+    <button onclick="startTimer()">Start</button>
+    <button onclick="resetTimer()">Reset</button>
+</div>
+<div class="chart-box">
+    <h2>📊 Task Completion Chart</h2>
+    <canvas id="taskChart" width="300" height="200"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

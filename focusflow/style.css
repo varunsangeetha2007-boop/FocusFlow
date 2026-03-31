@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+.task-box {
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    margin: 10px auto;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span {
+    flex: 1;
+    cursor: pointer;
+}
+
+li button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.timer-box {
+    margin-top: 40px;
+}
+
+#timer {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.timer-box button {
+    margin: 5px;
+    padding: 10px 15px;
+}
+.chart-box {
+    width: 320px;
+    margin: 40px auto;
+}
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode li {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode input {
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-mode button {
+    opacity: 0.9;
+}
+body {
+    padding: 10px;
+}
+
+input {
+    width: 90%;
+    max-width: 300px;
+}
+
+li {
+    width: 95%;
+    max-width: 350px;
+}
+
+.chart-box {
+    width: 95%;
+    max-width: 350px;
+}
